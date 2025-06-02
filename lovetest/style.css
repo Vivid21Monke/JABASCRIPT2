@@ -1,0 +1,59 @@
+body {
+    background: #fc00d2;
+background: linear-gradient(114deg, rgba(252, 0, 210, 1) 0%, rgba(184, 11, 163, 1) 43%, rgba(140, 3, 81, 1) 80%);
+height: 97.5vh;
+width: 97vw;
+display:flex;
+flex-direction: column;
+align-items: center;
+}
+.mid1 {
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+    border: solid;
+    border-width: 3px;
+    border-color: darkblue;
+    background-color: blue;
+}
+.mid2 {
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+    border: solid;
+    border-width: 3px;
+    border-color: #D50B8B;
+    background-color:#DC8BE0 ;
+    margin-top: 100px;
+}
+.butt {
+    height: 50px;
+    width: 150px;
+    background-color: plum;
+    color: white;
+    border: solid;
+    border-color: plum;
+    margin-top: 20px;
+}
+.flex__div {
+    display: flex;
+    flex-direction: row;
+}
+.text__out {
+    color: black;
+    margin-top: 80px;
+    font-size: 50px;
+}
+.bix__box {
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("img/neon.jpg");
+    background-repeat: no-repeat;
+    background-size: 400px 450px;
+    background-color: #cccccc;
+    width: 400px;
+    height: 450px;
+    border-radius: 30px;
+}
